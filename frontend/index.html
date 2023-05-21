@@ -31,9 +31,11 @@
         </form>
         </dialog>
         <h1 class="listar">Lista de Tareas</h1>
-        <div id="frm" >
+        <div id="tablageneral" >
+            <div id="frm" >
             <input type="hidden" id="id" value="">
             <form action="#" method="post">
+                
                 <div class="field">
                     <label for="name">Tarea:</label>
                     <input type="text" id="name">
@@ -47,7 +49,8 @@
                     <input type="date" id="date">
                 </div>
                 <input type="button" id="task_submit" value="Enviar" onclick="insert()">
-
+            </div>
+            </div>
             </form>
             <div id="tablatarea">
                 <h2>Lista de Tareas a Realizar:</h2>
@@ -63,7 +66,7 @@
                     </tr>
 
                 </table>
-            </div>
+            
         </div>
     </div>
 </div>
